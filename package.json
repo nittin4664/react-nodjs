@@ -1,0 +1,28 @@
+{
+  "name": "react-express-postgress",
+  "version": "0.0.0",
+  "description": "Simple web app with postgress",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nittin4664/react-nodjs.git"
+  },
+  "author": "",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/nittin4664/react-nodjs/issues"
+  },
+  "dependencies" : {
+      "express": "^4.10.6",
+      "path": "^0.4.9"
+  },
+  "devDependencies": {
+        "grunt": "~1.0.1",
+        "grunt-cli": "~1.2.0",
+        "grunt-easy-rpm": "~1.5.6"
+  }
+}
