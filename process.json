@@ -1,0 +1,8 @@
+{"apps" : [{
+    "name": "post-node-react",
+    "script": "server.js",
+    "instances": 4,
+    "exec_mode": "cluster",
+    "cwd": "/usr/lib/post-node-react"
+    }]
+}

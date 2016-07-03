@@ -18,4 +18,12 @@ cd to /usr/lib/post-node-react
 
 node server.js #to start the app
 
-#next to run app as a service with pm2
+#To run app as a service
+
+sudo npm install pm2
+
+pm2 start process.json #you have to be the project folder (we can update this http://pm2.keymetrics.io/docs/usage/application-declaration/)
+
+#starts 4 instance on the app and the app status can be monitored
+
+pm2 monit or list to see status and health
