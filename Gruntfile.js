@@ -13,7 +13,7 @@ module.exports = function(grunt) {
                     {src: "node_modules/**", dest: "/usr/lib/post-node-react"},
                     {src: "resources/**", dest: "/usr/lib/post-node-react"},
                     {src: "server.js", dest: "/usr/lib/post-node-react"},
-                    {src: "process.json", dest: "/usr/lib/process.json"}
+                    {src: "process.json", dest: "/usr/lib/post-node-react"}
                 ]
             }
         }
