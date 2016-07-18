@@ -18,7 +18,8 @@
   },
   "dependencies" : {
       "express": "^4.10.6",
-      "path": "^0.4.9"
+      "path": "^0.4.9",
+      "pg-promise": ""
   },
   "devDependencies": {
       "grunt": "~1.0.1",
