@@ -2,10 +2,16 @@
 
 let express = require('express'),
     products = require('./models/result'),
+var db = require('./resources/js/database.js'),
     app = express();
 
 
 app.use('/', express.static(__dirname + '/resources'));
+
+app.get('/hoardings', function(res, res) {
+  db.query("SELECT * from hoarding;").then(function(d) {
+    res.send(d);});
+});
 
 app.set('port', process.env.PORT || 3000);
 
